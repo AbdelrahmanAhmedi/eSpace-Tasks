@@ -31,8 +31,7 @@ const createTaskItem = ({ id, title, completed }) => {
   card.className = "card p-2";
 
   const taskrow = document.createElement("div");
-  taskrow.className =
-    "d-flex justify-content-between align-items-center overflow-hidden";
+  taskrow.className = "d-flex justify-content-between align-items-center ";
 
   const label = document.createElement("span");
   label.textContent = title;
