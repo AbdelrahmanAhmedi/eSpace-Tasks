@@ -4,7 +4,7 @@ import Form from "../components/form";
 import { ThemeContext } from "../ThemeContext";
 
 export default function HomePage() {
-  const { theme } = useContext(ThemeContext); // تم تصحيح السطر
+  const { theme } = useContext(ThemeContext);
   const navigate = useNavigate();
   const [username, setUsername] = useState("");
 

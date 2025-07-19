@@ -15,7 +15,6 @@ root.render(
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/app" element={<App />} />
-          {/* <Route  */}
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
